@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            #header-img {
+                width: 150px;
+            }
+            /* For desktop: */
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-1 {width: 8.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                [class*="col-"] {
+                 width: 100%;
+  }
+}
+                .flex-container {
+                    display: flex;
+                }
+    body {
+        font-family: sans-serif;
+    }
+    .nav-link {
+        padding: 20px;
+        margin: 20px;
+    }
+        </style>
+    </head>
+    
+    <body>
+        <header id="header">
+            <img id="header-img" img src="http://www.carlogos.org/logo/BMW-M-logo-1920x1080.png"/>
+            <nav id="nav-bar">
+                <a class="nav-link" src=link href="#learn-more">Learn More</a>
+                <a class="nav-link" src=link href="#request-discount">Request Discount</a>
+                <a class="nav-link" src=link href="#buy-from-carmax">Buy From Carmax</a>
+            </nav>
+        </header>
+        <center>
+        <section id="learn-more">
+            <h1>BMW X6 M SUV</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fcI2uqf1g8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    </section>
+    <section id="request-discount">
+        
+    </section>
+    <section id="buy-from-carmax">
+        <center>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="you@whatever.com" name="email"></input>
+            <input id="submit" type="submit"></input>
+        </form>
+    </center>
+    </section>
+    <div id="img-div">
+    </div>
+    <div class="flex-container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
